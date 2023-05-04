@@ -1,14 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./estilos/reset.css">
-    <link rel="stylesheet" href="./estilos/contacto.css">
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos/reset.css" />
+    <link rel="stylesheet" href="./estilos/contacto.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TEAM 2</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Equipo</a></li>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <figure>
+          <img src="" alt="" />
+          <!-- Imagen de fondo representativa del grupo | Página de contacto -->
+        </figure>
+      </section>
+      <section>
+        <article>
+          <h2>Contacto</h2>
+          <p>Texto "aquí puedes contactar con nosotras..." o algo así.</p>
+          <p>Todos los campos marcados con <span>*</span> son obligatorios.</p>
+        </article>
+        <article>
+          <form action="">
+            <!-- En action poner url para enviar datos del formulario -->
+            <label for="nombre">
+              <span>Nombre completo <span>*</span></span>
+              <input
+                type="text"
+                value="Nombre..."
+                name="nombre"
+                id="nombre"
+                autocomplete="name"
+                required
+              />
+            </label>
+            <label for="mail">
+              <span>Email <span>*</span></span>
+              <input
+                type="text"
+                value="nombre.apellidos@mail.com"
+                name="mail"
+                id="mail"
+                autocomplete="email"
+                required
+              />
+            </label>
+            <label for="tlf">
+              <span>Teléfono</span>
+              <input type="tel" value="Ej: 123456789" name="tlf" id="tlf" />
+            </label>
+            <label for="mensaje">
+              <span>Mensaje <span>*</span></span>
+              <textarea name="mensaje" id="mensaje" cols="" rows="">
+                ¿Qué necesitas? </textarea
+              >
+              <!-- Hay que definir cols y rows -->
+            </label>
+            <input type="submit" />
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <footer>
+        <p>Nombre del grupo &copy; 2023</p>
+        <nav>
+          <ul>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <figure>
+          <img src="" alt="Logo de Adalab" />
+        </figure>
+      </footer>
+    </footer>
+  </body>
 </html>
