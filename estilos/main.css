@@ -1,0 +1,67 @@
+.QUINES-SOMOS {
+    width: 193px;
+    height: 45px;
+    margin: 0 47.5px 30px 49.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #099d8d;
+  }
+  .nombres {
+    width: 147px;
+    height: 45px;
+    margin: 15px 70.5px 0 72.5px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(black);
+  }
+  .descripciones{
+        width: 290px;
+        height: 200px;
+        margin: 60px 0 15px;
+        font-family: OpenSans;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(grey);
+      
+  }
+
+  .\- {
+    width: 124px;
+    height: 30px;
+    margin: 15px 83px 0;
+    font-family: FontAwesome5Brands;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(#099d8d);
+  }
+  
+  .\- .text-style-1 {
+    font-family: OpenSans;
+    color: var(grey);
+  }
+  
+  .\- .Text-Style-9 {
+    font-family: FontAwesome5ProSolid;
+  }
