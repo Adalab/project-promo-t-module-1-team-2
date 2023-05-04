@@ -27,16 +27,17 @@
         </figure>
       </section>
       <section>
-        <article>
+        <article class="art1-contacto">
           <h2>Contacto</h2>
-          <p>Texto "aquí puedes contactar con nosotras..." o algo así.</p>
-          <p>Todos los campos marcados con <span>*</span> son obligatorios.</p>
+          <p class="art1-p1">Texto "aquí puedes contactar con nosotras..." o algo así.</p>
+          <p class="art1-p2">Todos los campos marcados con <span class="asterisco">*</span> son obligatorios.</p>
         </article>
-        <article>
-          <form action="">
+        <article class="art2">
+          <form  class="formulario"action="">
             <!-- En action poner url para enviar datos del formulario -->
             <label for="nombre">
-              <span>Nombre completo <span>*</span></span>
+              <span>Nombre completo <span class="asterisco">*</span></span>
+              <div class="cajita">
               <input
                 type="text"
                 value="Nombre..."
@@ -45,9 +46,10 @@
                 autocomplete="name"
                 required
               />
+            </div>
             </label>
             <label for="mail">
-              <span>Email <span>*</span></span>
+              <span>Email <span class="asterisco">*</span></span>
               <input
                 type="text"
                 value="nombre.apellidos@mail.com"
@@ -62,10 +64,9 @@
               <input type="tel" value="Ej: 123456789" name="tlf" id="tlf" />
             </label>
             <label for="mensaje">
-              <span>Mensaje <span>*</span></span>
+              <span>Mensaje <span class="asterisco">*</span></span>
               <textarea name="mensaje" id="mensaje" cols="" rows="">
-                ¿Qué necesitas? </textarea
-              >
+                ¿Qué necesitas? </textarea>
               <!-- Hay que definir cols y rows -->
             </label>
             <input type="submit" />
