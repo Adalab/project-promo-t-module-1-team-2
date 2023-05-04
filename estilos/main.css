@@ -11,8 +11,9 @@
     letter-spacing: normal;
     text-align: center;
     color: #099d8d;
-  }
-  .nombres {
+}
+
+.nombres {
     width: 147px;
     height: 45px;
     margin: 15px 70.5px 0 72.5px;
@@ -25,24 +26,25 @@
     letter-spacing: normal;
     text-align: center;
     color: var(black);
-  }
-  .descripciones{
-        width: 290px;
-        height: 200px;
-        margin: 60px 0 15px;
-        font-family: OpenSans;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: var(grey);
-      
-  }
+}
 
-  .\- {
+.descripciones {
+    width: 290px;
+    height: 200px;
+    margin: 60px 0 15px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(grey);
+
+}
+
+.\- {
     width: 124px;
     height: 30px;
     margin: 15px 83px 0;
@@ -55,13 +57,40 @@
     letter-spacing: normal;
     text-align: center;
     color: var(#099d8d);
-  }
-  
-  .\- .text-style-1 {
+}
+
+.\- .text-style-1 {
     font-family: OpenSans;
     color: var(grey);
-  }
-  
-  .\- .Text-Style-9 {
+}
+
+.\- .Text-Style-9 {
     font-family: FontAwesome5ProSolid;
-  }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 30px 0 45px 0;
+}
+
+.copy {
+    color: #b8b8b9;
+}
+
+.menufooter {
+    margin: 20px 0 30px 0;
+    line-height: 1.43
+}
+
+.menufooter a {
+    color: #54585a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.imgfooter {}

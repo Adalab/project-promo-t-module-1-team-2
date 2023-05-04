@@ -7,6 +7,12 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="./estilos/reset.css" />
     <link rel="stylesheet" href="./estilos/contacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -30,23 +36,25 @@
         <article class="art1-contacto">
           <h2>Contacto</h2>
           <p class="art1-p1">Texto "aquí puedes contactar con nosotras..." o algo así.</p>
-          <p class="art1-p2">Todos los campos marcados con <span class="asterisco">*</span> son obligatorios.</p>
+          <p class="art1-p2">
+            Todos los campos marcados con <span class="asterisco">*</span> son obligatorios.
+          </p>
         </article>
         <article class="art2">
-          <form  class="formulario"action="">
+          <form class="formulario" action="">
             <!-- En action poner url para enviar datos del formulario -->
             <label for="nombre">
               <span>Nombre completo <span class="asterisco">*</span></span>
               <div class="cajita">
-              <input
-                type="text"
-                value="Nombre..."
-                name="nombre"
-                id="nombre"
-                autocomplete="name"
-                required
-              />
-            </div>
+                <input
+                  type="text"
+                  value="Nombre..."
+                  name="nombre"
+                  id="nombre"
+                  autocomplete="name"
+                  required
+                />
+              </div>
             </label>
             <label for="mail">
               <span>Email <span class="asterisco">*</span></span>
@@ -66,7 +74,8 @@
             <label for="mensaje">
               <span>Mensaje <span class="asterisco">*</span></span>
               <textarea name="mensaje" id="mensaje" cols="" rows="">
-                ¿Qué necesitas? </textarea>
+                ¿Qué necesitas? </textarea
+              >
               <!-- Hay que definir cols y rows -->
             </label>
             <input type="submit" />
@@ -74,20 +83,26 @@
         </article>
       </section>
     </main>
-    <footer>
-      <footer>
-        <p>Nombre del grupo &copy; 2023</p>
-        <nav>
-          <ul>
-            <li><a href="#">Equipo</a></li>
-            <li><a href="#">Quiénes somos</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-        <figure>
-          <img src="" alt="Logo de Adalab" />
+    <footer class="footer">
+      <p class="copy">Nombre del grupo &copy; 2023</p>
+      <nav>
+        <ul class="menufooter">
+          <li><a href="#">Equipo</a></li>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="https://adalab.es/" target="_blank" title="Adalab">
+        <figure class="imgfooter">
+          <img
+            src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
+            alt="Logo de Adalab"
+            width="115"
+            height="45"
+          /><!--logo para prueba-->
+          <!--logo para prueba-->
         </figure>
-      </footer>
+      </a>
     </footer>
   </body>
 </html>
