@@ -1,3 +1,8 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/*estas son las reglas para especificar las familias */
+
 .section-1 {
   width: 320px;
   height: 504px;
@@ -9,8 +14,7 @@
   height: 45px;
   margin: 30px 114.5px 15px 116.5px;
   /*no es el font-family correcto*/
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 45px;
@@ -29,6 +33,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #54585a;
+
 }
 
 .parrafo2 {
@@ -63,6 +68,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #54585a;
+
 }
 
 .QUINES-SOMOS {
@@ -70,8 +76,7 @@
   height: 45px;
   margin: 30px 114.5px 15px 116.5px;
   /*no es el font-family correcto*/
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 45px;
@@ -108,6 +113,7 @@
   letter-spacing: normal;
   text-align: center;
   color: var(grey);
+
 }
 
 .\- {
@@ -138,7 +144,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 30px 0 45px 0;
 }
@@ -149,7 +155,7 @@
 
 .menufooter {
   margin: 20px 0 30px 0;
-  line-height: 1.43;
+  line-height: 1.43
 }
 
 .menufooter a {
@@ -159,7 +165,10 @@
   font-weight: 600;
 }
 
+.imgfooter {}
+
 .imagen {
+
   width: 180px;
   height: 180px;
   margin: 0 55px 15px;
