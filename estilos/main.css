@@ -66,19 +66,18 @@
 }
 
 .QUINES-SOMOS {
-  width: 193px;
+  width: 89px;
   height: 45px;
-  margin: 0 47.5px 30px 49.5px;
+  margin: 30px 114.5px 15px 116.5px;
+  /*no es el font-family correcto*/
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
+  line-height: 45px;
   text-align: center;
-  color: #099d8d;
+  justify-content: center;
+  color: #14d9c4;
 }
 
 .nombres {
@@ -158,4 +157,12 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.imagen {
+  width: 180px;
+  height: 180px;
+  margin: 0 55px 15px;
+  border-radius: 4px;
+  border: solid 5px var(--black-8);
 }
