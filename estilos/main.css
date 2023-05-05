@@ -1,3 +1,66 @@
+.section-1 {
+  width: 320px;
+  height: 504px;
+  background-color: #ffffff;
+}
+.equipo {
+  width: 89px;
+  height: 45px;
+  margin: 30px 114.5px 15px 116.5px;
+  /*no es el font-family correcto*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  justify-content: center;
+  color: #14d9c4;
+}
+.parrafo {
+  width: 290px;
+  height: 384px;
+  /*no es el font-family correcto*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 15px 30px 15px;
+  text-align : center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+
+}
+.parrafo2 {
+  margin-top: 40px;
+}
+
+.section-2 {
+  /*falta flechita en blanco arriba en el color de fondo*/
+  width: 320px;
+  height: 579px;
+  background-color: #b8b8b9;
+  /*falta ajustar color*/
+  /*display: flex para otros tamaños?*/
+}
+.h3-fort-deb {
+  width: 290px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: #099d8d;
+  padding: 30px 15px 0 15px;
+}
+.parrafo-3-4 {
+  width: 290px;
+  height: 192px;
+  /*no es el font-family correcto*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 15px 0px 15px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+
+}
+
 .QUINES-SOMOS {
     width: 193px;
     height: 45px;
@@ -11,8 +74,9 @@
     letter-spacing: normal;
     text-align: center;
     color: #099d8d;
-  }
-  .nombres {
+}
+
+.nombres {
     width: 147px;
     height: 45px;
     margin: 15px 70.5px 0 72.5px;
@@ -25,24 +89,25 @@
     letter-spacing: normal;
     text-align: center;
     color: var(black);
-  }
-  .descripciones{
-        width: 290px;
-        height: 200px;
-        margin: 60px 0 15px;
-        font-family: OpenSans;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: normal;
-        text-align: center;
-        color: var(grey);
-      
-  }
+}
 
-  .\- {
+.descripciones {
+    width: 290px;
+    height: 200px;
+    margin: 60px 0 15px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(grey);
+
+}
+
+.\- {
     width: 124px;
     height: 30px;
     margin: 15px 83px 0;
@@ -55,9 +120,9 @@
     letter-spacing: normal;
     text-align: center;
     color: var(#099d8d);
-  }
-  
-  .\- .text-style-1 {
+}
+
+.\- .text-style-1 {
     font-family: OpenSans;
     color: var(grey);
   }
