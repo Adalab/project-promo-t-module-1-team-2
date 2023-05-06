@@ -43,13 +43,28 @@
 /* PARTE DEL FORMULARIO */
 .art2 {
     padding-top: 84px;
+    padding-bottom: 60px;
     width: 290px;
-}
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Open Sans', sans-serif ;
 
-.formulario {
+}
+ .formulario {
     display: flex;
     flex-direction: column;
     font-size: 14px;
+    
+}
+.caja{
+   height: 45px;
+} 
+.boton {
+    background-color:#099d8d;
+
 }
 
 /*PARTE DEL FOOTER*/
