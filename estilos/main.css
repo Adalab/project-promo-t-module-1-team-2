@@ -164,8 +164,7 @@ font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
-.imgfooter {
-}
+.imgfooter {}
 
 .imagen {
   width: 180px;
@@ -174,6 +173,7 @@ font-family: 'Open Sans', sans-serif;
   border-radius: 4px;
   border: solid 5px var(--black-8);
 }
+
 .section-1 {
   width: 320px;
   height: 504px;
@@ -349,6 +349,28 @@ font-family: 'Open Sans', sans-serif;
   justify-content: center;
   margin: auto;
   gap: 17px;
+}
+
+.rrss li {
+  position: relative;
+
+}
+
+.rrss li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  background-color: black;
+  height: 2px;
+  margin-top: -1px;
+  width: 2px;
+  border-radius: 50%;
+
+}
+
+.rrss li:last-child::before {
+  display: none;
 }
 
 .logo-rrss {
