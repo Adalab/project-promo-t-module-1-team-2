@@ -1,34 +1,29 @@
 .section-1 {
-    width: 320px;
-    height: 504px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*height: 504px;*/
     background-color: #ffffff;
 }
 
 .equipo {
-    width: 89px;
-    height: 45px;
     margin: 30px 114.5px 15px 116.5px;
-    /*no es el font-family correcto*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 1.88;
     text-align: center;
-    justify-content: center;
     color: #14d9c4;
 }
 
 .parrafo {
-    width: 290px;
-    height: 384px;
-    /*no es el font-family correcto*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px 15px 30px 15px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
     line-height: 24px;
     color: #54585a;
-
 }
 
 .parrafo2 {
@@ -36,32 +31,39 @@
 }
 
 .section-2 {
-    /*falta flechita en blanco arriba en el color de fondo*/
-    width: 320px;
-    height: 579px;
     background-color: #b8b8b9;
-    /*falta ajustar color*/
-    /*display: flex para otros tamaños?*/
 }
 
 .h3-fort-deb {
-    width: 290px;
-    height: 45px;
-    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2.05;
     text-align: center;
     color: #099d8d;
     padding: 30px 15px 0 15px;
 }
-
+.flecha {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.flecha_hija {
+    width: 7vh;
+    height: 7vh;
+    background-color: white;
+    align-items: center;
+    transform: rotate(45deg);
+    position: relative;
+    top: -3.7vh;
+}
 .parrafo-3-4 {
-    width: 290px;
-    height: 192px;
-    /*no es el font-family correcto*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px 15px 0px 15px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5;
     color: #54585a;
 
 }
@@ -110,7 +112,7 @@
     color: var(grey);
 
 }
-
+/*
 .\- {
     width: 124px;
     height: 30px;
@@ -134,7 +136,7 @@
 .\- .Text-Style-9 {
     font-family: FontAwesome5ProSolid;
 }
-
+*/
 .footer {
     display: flex;
     flex-direction: column;
