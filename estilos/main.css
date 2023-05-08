@@ -1,8 +1,82 @@
-/*font-family: 'Rubik', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-/*estas son las reglas para especificar las familias */
+.header {
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 99;
 
+}
+
+.header-base {
+    width: 320px;
+    height: 60px;
+    padding: 15px 80px;
+    opacity: 0.95;
+    background-color:#099d8d;
+  }
+  .Nombre-del-grupo {
+    width: 160px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  
+  .header2 {
+    padding-top: 0%;
+    width: 320px;
+    height: 45px;
+    padding: 8px 17px 7px 16px;
+    opacity: 0.9;
+    background-color: #14d9c4;
+  }
+
+
+ .equipoh {
+    width: 56px;
+    height: 30px;
+    margin: 0 15px 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.938rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color:#ffffff
+ }
+ .quienesh{
+    width: 121px;
+    height: 30px;
+    margin: 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.938rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color:#ffffff
+ }
+.contactoh {
+    width: 80px;
+    height: 30px;
+    margin: 0 0 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.938rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+     
 .section-1 {
   width: 320px;
   height: 504px;
