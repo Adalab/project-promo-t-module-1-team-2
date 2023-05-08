@@ -173,5 +173,5 @@ font-family: 'Open Sans', sans-serif;
   height: 180px;
   margin: 0 55px 15px;
   border-radius: 4px;
-  border: solid 5px var(--black-8);
+  border: solid 5px;
 }
