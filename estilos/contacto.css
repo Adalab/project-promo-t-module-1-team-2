@@ -1,6 +1,6 @@
 /* PARTE DE CONTACTO */
 .art1-contacto {
-    display: flex;
+    display:inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -95,3 +95,82 @@
 }
 
 .imgfooter {}
+
+/* PARTE DEL HEADER */
+.header-base {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+  z-index: 99;
+}
+
+.header-base {
+    display: flex;
+    padding: 15px 45px 14px;
+    opacity: 0.95;
+    background-color: #099d8d;
+  }
+  #menuh li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+  
+  }
+  .nombreh {
+    
+      height: 30px;
+      margin: 0 224px 1px 0;
+      font-family:fantasy;
+      font-size: 1rem;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      color:#ffffff;
+    }
+    .equipoh {
+        width: 56px;
+        height: 30px;
+        margin: 0 18px 0 0;
+        font-family: Rubik;
+        font-size: 0.938rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+    .quienesh {
+        width: 121px;
+        height: 30px;
+        margin: 0 19px 0 18px;
+        font-family: Rubik;
+        font-size: 0.938rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color:#ffffff;
+      
+    }
+    .contactoh {
+      
+        width: 80px;
+        height: 30px;
+        margin: 0 0 0 19px;
+        font-family: Rubik;
+        font-size: 0.938rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color:#ffffff;
+      }
+    
+   
+  
