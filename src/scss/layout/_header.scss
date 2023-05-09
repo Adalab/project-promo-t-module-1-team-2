@@ -1,52 +1,66 @@
-.header-base {
+.header1 { 
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 8%;
-    left: 0;
+    margin-top: 0px;
     top: 0;
-    position: fixed;
-    z-index: 99;
-    opacity: 0.95;
-    background-color: #099d8d;
+    position: fixed; 
+    z-index: 1;
+  
+   }
+  
+  .header-base {  
+      height: 60px;
+      display:inline-flex;
+      width: 100%;
+      opacity: 0.95;
+      background-color:#099d8d;
+      justify-content:center;
+  
+      
+    }
+    .nombreh {
+      display: flex;
+      justify-content: center;
+      height: 30px;
+      font-family: Rubik;
+      font-size: 1rem;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.88;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      
+    }
+   .header2 {
     display: flex;
-    flex-direction: column;
-}
-
-.equipoh {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     width: 100%;
-}
-
-.nombreh {
-    display: flex;
-    width: 100%;
-}
-
-.lista {}
-
-#menuh li {
-    display: inline;
+    height: 45px;
+    opacity: 0.9;
+    background-color: #14d9c4;
+   
+  }
+  #menuh li  {
+    display:inline;
+    justify-content: center;
     padding-left: 3px;
     padding-right: 3px;
-}
-
-.nombreh {
-    height: 30px;
-    margin: 0 224px 1px 0;
-    font-family: Rubik;
-    font-size: 1rem;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: normal;
-    color: #ffffff;
-}
-
-.equipoh {
+   
+  }
+  #menuh a {
+    text-decoration: none;
+    color:#ffffff
+  }
+  
+  
+  
+  .equipoh {
     width: 56px;
     height: 30px;
-    margin: 18px 0 0;
+    margin:  15px 0 0;
     font-family: Rubik;
     font-size: 0.938rem;
     font-weight: 500;
@@ -55,12 +69,12 @@
     line-height: 2;
     letter-spacing: normal;
     color: #ffffff;
-}
-
-.quienesh {
+  }
+  
+  .quienesh {
     width: 121px;
     height: 30px;
-    margin: 0 19px 0 18px;
+    margin: 15;
     font-family: Rubik;
     font-size: 0.938rem;
     font-weight: 500;
@@ -69,12 +83,13 @@
     line-height: 2;
     letter-spacing: normal;
     color: #ffffff;
-}
-
-.contactoh {
+  
+  }
+  
+  .contactoh {
     width: 80px;
     height: 30px;
-    margin: 0 0 0 19px;
+    margin: 0 0 0 15px;
     font-family: Rubik;
     font-size: 0.938rem;
     font-weight: 500;
@@ -83,4 +98,5 @@
     line-height: 2;
     letter-spacing: normal;
     color: #ffffff;
-}
+  }
+  
