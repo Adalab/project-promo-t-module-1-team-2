@@ -103,6 +103,7 @@
     top: 0;
     position: fixed;
   z-index: 99;
+  
 }
 
 .header-base {
@@ -110,11 +111,13 @@
     padding: 15px 45px 14px;
     opacity: 0.95;
     background-color: #099d8d;
+   
   }
   #menuh li {
     display:inline;
     padding-left:3px;
     padding-right:3px;
+    align-items: flex-end;
   
   }
   .nombreh {

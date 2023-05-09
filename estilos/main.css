@@ -4,6 +4,7 @@
   top: 0;
   position: fixed;
   z-index: 99;
+  text-align: center;
 }
 
 .header-base {
@@ -17,6 +18,7 @@
   display: inline;
   padding-left: 3px;
   padding-right: 3px;
+
 
 }
 
@@ -37,7 +39,7 @@
 .equipoh {
   width: 56px;
   height: 30px;
-  margin: 0 18px 0 0;
+  margin:  18px 0 0;
   font-family: Rubik;
   font-size: 0.938rem;
   font-weight: 500;
