@@ -12,6 +12,7 @@
   padding: 15px 45px 14px;
   opacity: 0.95;
   background-color: #099d8d;
+  justify-content: space-around;
 }
 
 #menuh li {
