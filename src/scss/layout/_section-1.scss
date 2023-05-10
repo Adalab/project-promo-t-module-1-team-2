@@ -7,12 +7,11 @@
     display: flexbox;
     flex-wrap: wrap;
     flex-direction: column;
-    /*height: 504px;*/
     background-color: #ffffff;
 }
 
 .equipo {
-    margin: 30px 114.5px 15px 116.5px;
+    margin: 30px auto 15px;
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -23,7 +22,7 @@
 
 .parrafo {
     font-family: "Open Sans", sans-serif;
-    margin: 0 0 30px;
+    margin-bottom: 30px;
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
