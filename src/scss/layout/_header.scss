@@ -16,10 +16,11 @@
       opacity: 0.95;
       background-color:#099d8d;
       justify-content:center;
+      align-items: center;
   
       
     }
-    .nombreh {
+    .nombre-header {
       display: flex;
       justify-content: center;
       height: 30px;
@@ -57,7 +58,7 @@
   
   
   
-  .equipoh {
+  .equipo-header {
     width: 56px;
     height: 30px;
     margin:  15px 0 0;
@@ -71,7 +72,7 @@
     color: #ffffff;
   }
   
-  .quienesh {
+  .quienes-header {
     width: 121px;
     height: 30px;
     margin: 15;
@@ -86,7 +87,7 @@
   
   }
   
-  .contactoh {
+  .contacto-header {
     width: 80px;
     height: 30px;
     margin: 0 0 0 15px;
@@ -99,4 +100,26 @@
     letter-spacing: normal;
     color: #ffffff;
   }
-  
+     
+  @media screen and (min-width: 768px) {
+    
+    .header1 {
+      display:flex;
+      flex-direction: row;
+      
+    }
+    .header2 {
+      background-color: #099d8d;
+      height: 60px;
+      align-items: center;
+      opacity: 0.95;
+      padding-left: 45px;
+      
+    
+    }
+    .header-base {
+      justify-content:space-between;
+      align-items: center;
+      padding-left: 45px;
+    }
+  }
