@@ -23,18 +23,14 @@
 
 .parrafo {
     font-family: "Open Sans", sans-serif;
-    margin: 0px 15px 30px 15px;
+    margin: 0 0 30px;
     text-align: center;
     font-size: 1rem;
     line-height: 1.5;
     line-height: 24px;
     color: #54585a;
+    z-index: 2;
 }
-
-.parrafo2 {
-    margin-top: 40px;
-}
-
 .section-2 {
     background-color: #b8b8b9;
 }
@@ -53,6 +49,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    z-index: 0;
 }
 
 .flecha_hija {
@@ -63,11 +60,11 @@
     transform: rotate(45deg);
     position: relative;
     top: -3.7vh;
+    z-index: 0;
 }
 
 .parrafo-3-4 {
     font-family: "Open Sans", sans-serif;
-    margin: 0px 15px 0px 15px;
     padding-bottom: 30px;
     text-align: center;
     font-size: 1rem;
