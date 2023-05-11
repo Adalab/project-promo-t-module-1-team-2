@@ -1,12 +1,19 @@
 .footer {
-    
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     padding: 30px 45px;
-    border: solid 1px #b8b8b9;
+    border-top: solid 1px #b8b8b9;
+    margin-top: 45px;
+
+ 
+    /*   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    
+    */
  
 }
 
@@ -27,7 +34,7 @@
     color: #54585a;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight:bold;
 }
 
 
