@@ -11,7 +11,7 @@
 
 .nombres {
     margin: 15px 70.5px 0 72.5px;
-    font-family: OpenSans;
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -24,15 +24,16 @@
 
 .descripciones {
     margin: 60px 0 15px;
-    font-family: OpenSans;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: normal;
+    color: #54585a;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: var(grey);
+    
 }
 .columna_central {
     margin: 0 15px;
@@ -77,4 +78,8 @@
 .logo-rrss {
     width: 18px;
     height: 30px;
+}
+
+.enlace-rrss{
+    
 }
