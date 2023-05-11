@@ -75,8 +75,22 @@
     margin: 0 15px;
   }
 @media screen and (min-width:768px){
-    .hero {
-        margin-top: 60px;
+    // .hero {
+    //     margin-top: 60px;
+    // }
+    .columna_central {
+        margin: 0;
+  }
+    .caja-gris {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .fort-deb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+       
     }
     
 }

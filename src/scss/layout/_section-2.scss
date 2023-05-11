@@ -80,6 +80,43 @@
     height: 30px;
 }
 
-.enlace-rrss{
+@media screen and (min-width: 768px){
+   .left-card {
+    display: flex;
+
+   } 
+   .info-card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+  
+   .descripciones-left {
+    margin: 0;
+    text-align: left;
+   }
+   
+   .right-card {
+    display: flex;
+   }
+   .info-card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   }
+   .img-right {
+    order: 1;
+   }
+   .descripciones-right {
+    margin: 0;
+    text-align: right;
+   }
+   .nombres {
+    margin:0;
     
+   }
+   .nav-rrss {
+    margin: 0;
+   }
 }
+
