@@ -85,7 +85,7 @@
 
    .left-card {
     display: flex;
-    margin: 50px auto;
+    margin: 50px 45px;
    } 
 
    .imagen {
@@ -107,6 +107,7 @@
    
    .right-card {
     display: flex;
+    margin: 50px 45px;
    }
    .info-card-right {
     display: flex;
@@ -136,5 +137,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-  
+.right-card {
+        display: flex;
+        margin: 50px 139px;
+}
+.left-card {
+    display: flex;
+    margin: 50px 139px;
+}
 }
