@@ -1,5 +1,5 @@
 .hero {
-    height: 420px;
+    height: 80vh;
     display: flex;
     align-items: flex-end;
     background-image: url(../images/imagenheroprincipal.jpg);
@@ -14,9 +14,12 @@
         opacity: 1;
 }   
 }*/
+
+
+
 }  
 .hero-box {
-    width: 100%;
+    // width: 100%;
     padding: 16px;
     margin: 0 16px;
     background-color: #fff;
@@ -25,5 +28,15 @@
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     line-height: 25px;
-    margin-bottom: -45px
+    margin-bottom: -45px;
     }
+
+@media screen and (min-width: 768px) {
+    .hero-box {
+        opacity: 0.8;
+        margin: 0;
+        position: relative;
+        left: 46px;
+    }
+}
+    
