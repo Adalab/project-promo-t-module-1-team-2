@@ -79,14 +79,25 @@
 }
 
 @media screen and (min-width: 768px){
+    .QUINES-SOMOS {
+        padding: 50px 0 0 0;
+    }
+
    .left-card {
     display: flex;
-
+    margin: 50px auto;
    } 
+
+   .imagen {
+    height: 40vh;
+    width: auto;
+   }
+
    .info-card-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 30px;
    }
   
    .descripciones-left {
@@ -101,6 +112,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 30px;
    }
    .img-right {
     order: 1;
