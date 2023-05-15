@@ -3,54 +3,75 @@
   <section>
     <article class="art1-contacto">
       <h2>Contacto</h2>
-      <p class="art1-p1">Texto "aquí puedes contactar con nosotras..." o algo así.</p>
+      <p class="art1-p1">
+        Texto "aquí puedes contactar con nosotras..." o algo así.
+      </p>
       <p class="art1-p2">
-        Todos los campos marcados con <span class="asterisco">*</span> son obligatorios.
+        Todos los campos marcados con <span class="asterisco">*</span> son
+        obligatorios.
       </p>
     </article>
     <article class="art2">
       <form class="formulario" action="">
         <!-- En action poner url para enviar datos del formulario -->
         <label for="nombre">
-          <span>Nombre completo <span class="asterisco">*</span></span>
-          <div class="caja">
-            <input
-              type="text"
-              value="Nombre..."
-              name="nombre"
-              id="nombre"
-              autocomplete="name"
-              required
-            />
-          </div>
+          <span class="form-text"
+            >Nombre completo <span class="asterisco">*</span></span
+          >
+          <!-- <div class="caja"> -->
+          <input
+            class="box"
+            type="text"
+            value="Nombre..."
+            name="nombre"
+            id="nombre"
+            autocomplete="name"
+            required
+          />
+          <!-- </div> -->
         </label>
         <label for="mail">
-          <span>Email <span class="asterisco">*</span></span>
-          <div class="caja">
-            <input
-              type="text"
-              value="nombre.apellidos@mail.com"
-              name="mail"
-              id="mail"
-              autocomplete="email"
-              required
-            />
-          </div>
+          <span class="form-text">Email <span class="asterisco">*</span></span>
+          <!-- <div class="caja"> -->
+          <input
+            class="box box-mail"
+            type="text"
+            value="nombre.apellidos@mail.com"
+            name="mail"
+            id="mail"
+            autocomplete="email"
+            required
+          />
+          <!-- </div> -->
         </label>
         <label for="tlf">
-          <span>Teléfono</span>
-          <div class="caja">
-            <input type="tel" value="Ej: 123456789" name="tlf" id="tlf" />
-          </div>
+          <span class="form-text">Teléfono</span>
+          <!-- <div class="caja"> -->
+          <input
+            class="box"
+            type="tel"
+            value="Ej: 123456789"
+            name="tlf"
+            id="tlf"
+          />
+          <!-- </div> -->
         </label>
         <label for="mensaje">
-          <span>Mensaje <span class="asterisco">*</span></span>
-          <div class="caja">
-            <textarea name="mensaje" id="mensaje" cols="" rows="">
-            ¿Qué necesitas? </textarea
-            >
-            <!-- Hay que definir cols y rows -->
-          </div>
+          <span class="form-text"
+            >Mensaje <span class="asterisco">*</span></span
+          >
+          <!-- <div class="caja"> -->
+          <textarea
+            class="box box-mensaje"
+            name="mensaje"
+            id="mensaje"
+            cols=""
+            rows=""
+          >
+¿Qué necesitas?</textarea
+          >
+          <!-- Hay que definir cols y rows -->
+          <!-- </div> -->
         </label>
         <input type="submit" class="boton" />
       </form>
