@@ -41,6 +41,20 @@
 .imgfooter {
     height: 45px;
 }
+
+.footer-tablet-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+   .footer {
+    display: none;
+   }
+   .footer-tablet-desktop {
+    display: flex;
+    justify-content: space-around;
+   }
+}
         
     
 
