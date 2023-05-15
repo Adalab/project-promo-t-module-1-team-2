@@ -40,7 +40,7 @@
     line-height: 2.05;
     text-align: center;
     color: #099d8d;
-    padding: 30px 15px 0 15px;
+    padding: 10px 15px 0 15px;
 }
 
 .flecha {
@@ -79,6 +79,11 @@
     .columna_central {
         margin: 0;
   }
+
+  .parrafo {
+    padding: 0 30px 20px 30px;
+  }
+  
     .caja-gris {
         display: flex;
         justify-content: space-evenly;
@@ -88,6 +93,30 @@
         flex-direction: column;
         justify-content: center;
         width: 50%;
-       height: 100%;
+        height: 100%;
+        padding: 0 20px 20px 20px;
     }
 }   
+
+
+@media screen and (min-width: 1024px) {
+   .fort-deb {
+        padding: 0;
+        width: 100%;
+   }
+
+   .caja-gris {
+    margin-left: 138px;
+    margin-right: 138px;
+    gap: 30px;
+   }
+
+   .parrafo {
+    margin-left: 138px;
+    margin-right: 138px;
+   }
+
+   .parrafo-3-4 {
+    display: inline-block;
+   }
+}
