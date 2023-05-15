@@ -97,3 +97,26 @@
         padding: 0 20px 20px 20px;
     }
 }   
+
+
+@media screen and (min-width: 1024px) {
+   .fort-deb {
+        padding: 0;
+        width: 100%;
+   }
+
+   .caja-gris {
+    margin-left: 138px;
+    margin-right: 138px;
+    gap: 30px;
+   }
+
+   .parrafo {
+    margin-left: 138px;
+    margin-right: 138px;
+   }
+
+   .parrafo-3-4 {
+    display: inline-block;
+   }
+}
