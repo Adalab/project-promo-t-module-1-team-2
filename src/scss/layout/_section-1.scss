@@ -79,6 +79,11 @@
     .columna_central {
         margin: 0;
   }
+
+  .parrafo {
+    padding: 0 30px 20px 30px;
+  }
+  
     .caja-gris {
         display: flex;
         justify-content: space-evenly;
@@ -89,5 +94,6 @@
         justify-content: center;
         width: 50%;
         height: 100%;
+        padding: 0 20px 20px 20px;
     }
 }   
