@@ -29,10 +29,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #099d8d;
-    font-family: "Rubik", sans-serif;
+    color: $primary-background-color;
+    font-family: $primary-font-family;
     text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
     line-height: 24px;
     margin-bottom: 20px;
 }
@@ -47,8 +46,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
-    color: #54585a;
+    font-family: $secondary-font-family;
+    color: $secondary-color-text;
     
 }
 
@@ -59,12 +58,12 @@
     margin-right: 15px;
     margin-top: 40px;
     text-align: center;
-    color:#54585a ;
+    color:$secondary-color-text;
 
 }
 
 .asterisco {
-    color: #14d9c4;
+    color: $secondary-background-color;
 }
 @media screen and (min-width: 768px) {
     .art1-p1 {
@@ -88,7 +87,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:'Open Sans', sans-serif ;
+    font-family: $secondary-font-family;
 
 }
  .formulario {
@@ -104,28 +103,28 @@
 }
 .span {
    line-height: 30px;
-   font-family: 'Open Sans', sans-serif;
+   font-family: $secondary-font-family;
    font-size: 0.875;
-   color: #54585a;
+   color: $secondary-color-text;
 }
 .input {
     height: 40px;
     width: 290px;
-    color: #54585a;
+    color: $secondary-color-text;
     
 }
 .textarea {
     height: 70px;
     width: 290px;
    text-align: left;
-    color: #54585a;
+    color: $secondary-color-text;
 
 }
 .caja{
    height: 45px;
    width: 100%;
    margin-bottom: 20px;
-   color: #b8b8b9;
+   color: $color-box;
    text-align: left;
 } 
 
@@ -138,13 +137,13 @@
 }
 
 .box-mail {
-    color: black;
+    color: $primary-color-text;
 }
 
 .boton {
-    background-color:#099d8d;
+    background-color:$primary-background-color;
     margin-top: 50px;
-    color: white;
+    color: $third-background-color;
     height: 45px;
     width: 290px;
     font-size: 1rem;
