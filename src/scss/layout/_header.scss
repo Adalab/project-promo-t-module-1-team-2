@@ -85,3 +85,72 @@
   color:$third-background-color;
 }
 
+
+
+.equipo-header {
+  width: 56px;
+  height: 4.5vh;
+  margin:  15px 0 0;
+  font-family: Rubik;
+  font-size: 0.938rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.quienes-header {
+  width: 121px;
+  height: 30px;
+  margin: 15;
+  font-family: Rubik;
+  font-size: 0.938rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+
+.contacto-header {
+  width: 80px;
+  height: 4.5vh;
+  margin: 0 0 0 15px;
+  font-family: Rubik;
+  font-size: 0.938rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+   
+@media screen and (min-width: 768px) {
+  
+  .header1 {
+    display:flex;
+    flex-direction: row;
+    
+    
+  }
+  .header2 {
+    background-color: #099d8d;
+    height: 9vh;
+    align-items: center;
+    opacity: 0.95;
+    padding-left: 45px;
+    
+  
+  }
+  .header-base {
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 45px;
+  }
+}
