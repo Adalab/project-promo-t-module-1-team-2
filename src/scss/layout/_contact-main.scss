@@ -178,6 +178,13 @@
     }
 }
 @media screen and (min-width: 1200px){
+    .formulario {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        
+    }
     .art1-p1 {
         width: 601px;
         height: 96px;
@@ -187,6 +194,13 @@
     }
     .input {
         width: 601px;
+    }
+    .email {
+        width: 395px;
+        
+    }
+    .tlfn {
+        width: 162px;
     }
     .textarea {
         width: 601px;
