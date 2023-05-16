@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   margin-top: 0px;
   top: 0;
@@ -23,6 +24,9 @@
       align-items: center;
       padding-left: 45px;
     }
+    @media screen and (min-width: 1200px) {
+      padding-left: 142px;
+    }
     &--title {
       display: flex;
       justify-content: center;
@@ -36,12 +40,6 @@
       line-height: 1.88;
       letter-spacing: normal;
       color: $third-background-color;
-      @media screen and (min-width: 768px) {
-        font-size: 1.2rem;
-      }
-      @media screen and (min-width: 1024px) {
-        font-size: 1.3rem;
-      }
     }
   }
   &__bottom {
@@ -55,12 +53,12 @@
     @media screen and (min-width: 768px) {
       background-color: $primary-background-color;
       height: 9vh;
-      align-items: center;
-      opacity: 0.95;
-    }
-    @media screen and (min-width: 1024px) {
       justify-content: flex-end;
       padding-right: 45px;
+      opacity: 0.95;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-right: 138px;
     }
   }
 }
@@ -71,11 +69,11 @@
   padding-left: 3px;
   padding-right: 3px;
   font-family: $primary-font-family;
-  font-size: 0.938rem;
+  font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2;
+  line-height: 30px;
   letter-spacing: normal;
   color: $third-background-color;
 }
