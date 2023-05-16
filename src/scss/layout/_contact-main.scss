@@ -58,6 +58,7 @@
   margin-top: 40px;
   text-align: center;
   color: $secondary-color-text;
+  font-family: $secondary-font-family;
 }
 
 .asterisco {
@@ -90,7 +91,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 290px;
   font-size: 14px;
   width: 90vw;
   margin: 0 15px;
@@ -100,17 +100,25 @@
   font-family: $secondary-font-family;
   font-size: 0.875;
   color: $secondary-color-text;
+  display: block;
 }
 .input {
   height: 40px;
   width: 290px;
   color: $secondary-color-text;
+  font-family: $secondary-font-family;
 }
+  .email {
+    color: $primary-color-text;
+  }
+  
+
 .textarea {
   height: 70px;
   width: 290px;
   text-align: left;
   color: $secondary-color-text;
+  font-family: $secondary-font-family;
 }
 .caja {
   height: 45px;
@@ -118,18 +126,22 @@
   margin-bottom: 20px;
   color: $color-box;
   text-align: left;
+  font-family: $secondary-font-family;
 }
 
 .box-mensaje {
   height: 90px;
+  font-family: $secondary-font-family;
 }
 
 .form-text {
   line-height: 40px;
+  font-family: $secondary-font-family;
 }
 
 .box-mail {
   color: $primary-color-text;
+  font-family: $secondary-font-family;
 }
 
 .boton {
@@ -140,6 +152,7 @@
   width: 290px;
   font-size: 1rem;
   border-radius: 10px;
+  border: none;
 }
 @media screen and (min-width: 768px) {
   .hero-contact {

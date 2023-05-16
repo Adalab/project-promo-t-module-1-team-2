@@ -13,66 +13,51 @@
       </p>
     </article>
     <article class="art2">
-      <form class="formulario" action="">
+      <form class="formulario" action="https://dev.adalab.es/api/form">
         <!-- En action poner url para enviar datos del formulario -->
         <label for="nombre">
           <span class="span"
             >Nombre completo <span class="asterisco">*</span></span
           >
-          <div class="caja">
-            <input
-              class="input"
-              type="text"
-              value="Nombre..."
-              name="nombre"
-              id="nombre"
-              autocomplete="name"
-              required
-            />
-          </div>
+          <input
+            class="input"
+            type="text"
+            value="Nombre..."
+            name="nombre"
+            id="nombre"
+            autocomplete="name"
+            required
+          />
         </label>
         <label for="mail">
           <span class="span">Email <span class="asterisco">*</span></span>
-          <div class="caja">
-            <input
-              class="input email"
-              type="text"
-              value="nombre.apellidos@mail.com"
-              name="mail"
-              id="mail"
-              autocomplete="email"
-              required
-            />
-          </div>
+          <input
+            class="input email"
+            type="text"
+            value="nombre.apellidos@mail.com"
+            name="mail"
+            id="mail"
+            autocomplete="email"
+            required
+          />
         </label>
         <label for="tlf">
           <span class="span">Teléfono</span>
-          <div class="caja">
-            <input
-              class="input tlfn"
-              type="tel"
-              value="Ej: 123456789"
-              name="tlf"
-              id="tlf"
-            />
-          </div>
+          <input
+            class="input tlfn"
+            type="tel"
+            value="Ej: 123456789"
+            name="tlf"
+            id="tlf"
+          />
         </label>
         <label for="mensaje">
           <span class="span">Mensaje <span class="asterisco">*</span></span>
-          <div class="caja">
-            <textarea
-              class="textarea"
-              name="mensaje"
-              id="mensaje"
-              cols=""
-              rows=""
-            >
+          <textarea class="textarea" name="mensaje" id="mensaje">
             ¿Qué necesitas? </textarea
-            >
-            <!-- Hay que definir cols y rows -->
-          </div>
+          >
         </label>
-        <input type="submit" class="boton" />
+        <input type="submit" class="boton" value="Enviar" />
       </form>
     </article>
   </section>
